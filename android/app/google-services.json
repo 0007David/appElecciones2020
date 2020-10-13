@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "704815201554",
+    "firebase_url": "https://appelecciones-8bc9a.firebaseio.com",
+    "project_id": "appelecciones-8bc9a",
+    "storage_bucket": "appelecciones-8bc9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704815201554:android:d04bb7bea8c16930b547cb",
+        "android_client_info": {
+          "package_name": "com.example.app_elecciones2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704815201554-77qjdnfce15ocdqvgijmu5g5n0d5ugmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-GL3w9ESoszD8LL4xT-QttGJcYuhbYVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704815201554-77qjdnfce15ocdqvgijmu5g5n0d5ugmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704815201554:android:364d25cc8c227c29b547cb",
+        "android_client_info": {
+          "package_name": "com.example.formvalidation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704815201554-77qjdnfce15ocdqvgijmu5g5n0d5ugmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-GL3w9ESoszD8LL4xT-QttGJcYuhbYVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704815201554-77qjdnfce15ocdqvgijmu5g5n0d5ugmf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
