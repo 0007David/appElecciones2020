@@ -8,7 +8,7 @@ import 'package:app_elecciones2020/src/preferencias_usuario/preferencia_usuario.
 import 'package:app_elecciones2020/src/models/acta_model.dart';
 
 class ActaProvider {
-  final String _url = 'https://appelecciones-8bc9a.firebaseio.com';
+  final String _url = 'urlFirebase';
   final _prefs = new PreferenciasUsuario();
 
   Future<String> insert(ActaModel acta) async {
@@ -72,8 +72,7 @@ class ActaProvider {
   }
 
   Future<String> subirImagen(File imagen) async {
-    final url = Uri.parse(
-        'https://api.cloudinary.com/v1_1/dxfnjrouy/image/upload?upload_preset=t9kmou7m');
+    final url = Uri.parse('urlCloudy');
     final mimeType = mime(imagen.path).split('/'); // img/jpeg
 
     final imageUploadRequest = http.MultipartRequest('POST', url);

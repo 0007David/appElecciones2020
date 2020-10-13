@@ -8,7 +8,7 @@ import 'package:app_elecciones2020/src/preferencias_usuario/preferencia_usuario.
 import 'package:app_elecciones2020/src/models/producto_model.dart';
 
 class ProductosProvider {
-  final String _url = 'https://appelecciones-8bc9a.firebaseio.com';
+  final String _url = 'urlFireBase';
   final _prefs = new PreferenciasUsuario();
 
   Future<bool> crearProducto(ProductoModel producto) async {

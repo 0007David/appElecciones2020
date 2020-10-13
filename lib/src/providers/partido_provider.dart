@@ -5,7 +5,7 @@ import 'package:app_elecciones2020/src/preferencias_usuario/preferencia_usuario.
 import 'package:app_elecciones2020/src/models/partido_model.dart';
 
 class PartidoProvider {
-  final String _url = 'https://appelecciones-8bc9a.firebaseio.com';
+  final String _url = 'urlFirebase';
   final _prefs = new PreferenciasUsuario();
 
   Future<List<PartidoModel>> all() async {

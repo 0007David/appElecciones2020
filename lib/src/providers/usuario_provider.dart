@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 class UsuarioProvider {
   final String _url = 'https://identitytoolkit.googleapis.com/v1/accounts:';
 
-  final String _apiKey = 'AIzaSyD1mNcOF8PXVCSWMYy20ceIMzSXD_LlY3Q';
+  final String _apiKey = 'ApiKey';
   final _prefs = new PreferenciasUsuario();
 
   Future<Map<String, dynamic>> login(String email, String password) async {
